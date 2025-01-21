@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", serif;
+}
+
+.nav-container {
+    padding: 0 160px;
+}
+
+nav {
+    padding: 24px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+
+
+}
+
+.nav-logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-section {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-section li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 15px;
+    font-weight: bold;
+}
+
+.home-link {
+    color: orange;
+}
+
+.about-link {
+    color: skyblue;
+}
+
+.fact-link {
+    color: #05D4DF;
+}
+
+.admission-link {
+    color: #5D5FEF;
+}
+
+.nav-btn {
+    width: 197px;
+    height: 50px;
+    background-color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* hero section  */
+
+.hero-container{
+    padding: 0 160px;
+}
+.hero-container{
+    display: flex;
+    /* background-color: #5D5FEF; */
+}
+.hero-left{
+    width: 60%;
+}
+
+/* hero left  */
+.hero-left{
+    padding: 100px 0;
+}
+.hero-left h3{
+    font-size: 56px;
+}
+.hero-left-heading-1{
+    color: orange;
+}
+.hero-left-heading-2{
+    color: skyblue;
+}
+.hero-left p{
+    margin-top: 24px;
+}
+
+.enroll-btn{
+    width: 197px;
+    height: 50px;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+
+/* hero rignt  */
+.hero-right{
+    margin-left: 50px;
+}
