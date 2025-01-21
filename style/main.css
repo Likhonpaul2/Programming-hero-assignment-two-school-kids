@@ -71,35 +71,41 @@ nav ul li {
 
 /* hero section  */
 
-.hero-container{
+.hero-container {
     padding: 0 160px;
 }
-.hero-container{
+
+.hero-container {
     display: flex;
     /* background-color: #5D5FEF; */
 }
-.hero-left{
+
+.hero-left {
     width: 60%;
 }
 
 /* hero left  */
-.hero-left{
-    padding: 100px 0;
+.hero-left {
+    padding: 50px 0;
 }
-.hero-left h3{
+
+.hero-left h3 {
     font-size: 56px;
 }
-.hero-left-heading-1{
+
+.hero-left-heading-1 {
     color: orange;
 }
-.hero-left-heading-2{
-    color: skyblue;
+
+.hero-left-heading-2 {
+    color: rgb(31, 181, 240);
 }
-.hero-left p{
+
+.hero-left p {
     margin-top: 24px;
 }
 
-.enroll-btn{
+.enroll-btn {
     width: 197px;
     height: 50px;
     background-color: black;
@@ -112,8 +118,92 @@ nav ul li {
     margin-top: 24px;
 }
 
-
 /* hero rignt  */
-.hero-right{
+.hero-right {
     margin-left: 50px;
+}
+
+
+
+
+/* standard-curriculum */
+.standard-curriculum-container {
+    padding: 0 160px;
+}
+
+.standard-curriculum {
+    background-image: url("/assets/bg.png");
+}
+
+.standard-heading {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 32px;
+}
+
+.standard-cards {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 80px 0;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    border: 1px solid rgb(17, 167, 226);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card-details a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-1 {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(224, 244, 253, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+.card-2{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, #FFF6E3 0%, rgba(255, 255, 255, 1) 100%);
+}
+.card-3{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, #F0E7FE 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.read-1{
+    color: rgb(17, 167, 226) ;
+}
+.read-2{
+    color: orange;
+}
+.read-3{
+    color: #5D5FEF;
+}
+
+/* slide btn  */
+.slide-btn{
+    display: flex;
+    /* gap: 24px; */
+    justify-content: center;
+}
+.left-slide-btn, .right-slide-btn{
+    font-size: 32px;
+    font-weight: bold;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
 }
