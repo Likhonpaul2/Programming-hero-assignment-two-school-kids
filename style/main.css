@@ -401,3 +401,83 @@ footer{
 .footer-right img{
     cursor: pointer;
 }
+
+
+
+@media screen and (max-width:576px) {
+    .nav-container{
+        padding: 0 10px ;
+    }
+    .nav-logo-section{
+        margin-left: 30px;
+    }
+    .nav-link-section{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+
+    /* hero section  */
+    .hero{
+        text-align: center;
+    }
+    .hero-container{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 10px;
+    }
+    .hero-left{
+        padding-left: 20% ;
+    }
+
+    .standard-heading{
+       font-size: 24px;
+    }
+    .standard-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .standard-curriculum-container{
+        padding: 0;
+        margin: 0;
+    }
+    .card{
+        width: 90%;
+        height: 300px;
+    }
+    .slide-btn{
+        display: none;
+    }
+
+
+    .our-stories-container{
+        padding: none;
+    }
+    .our-stories-left{
+        display: none;
+    }
+    .our-stories-right{
+        width: 0;
+    }
+    .our-stories-right{
+        width: 100%;
+        padding: 0;
+        margin-left: -150px;
+        display: grid;
+        grid-template-columns: 250px 2fr ;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        padding-left: 100px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+}
