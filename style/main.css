@@ -133,6 +133,7 @@ nav ul li {
 
 .standard-curriculum {
     background-image: url("/assets/bg.png");
+    margin-bottom: 80px;
 }
 
 .standard-heading {
@@ -172,38 +173,231 @@ nav ul li {
     background: rgb(255, 255, 255);
     background: linear-gradient(180deg, rgba(224, 244, 253, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
-.card-2{
+
+.card-2 {
     background: rgb(255, 255, 255);
     background: linear-gradient(180deg, #FFF6E3 0%, rgba(255, 255, 255, 1) 100%);
 }
-.card-3{
+
+.card-3 {
     background: rgb(255, 255, 255);
     background: linear-gradient(180deg, #F0E7FE 0%, rgba(255, 255, 255, 1) 100%);
 }
 
-.read-1{
-    color: rgb(17, 167, 226) ;
+.read-1 {
+    color: rgb(17, 167, 226);
 }
-.read-2{
+
+.read-2 {
     color: orange;
 }
-.read-3{
+
+.read-3 {
     color: #5D5FEF;
 }
 
 /* slide btn  */
-.slide-btn{
+.slide-btn {
     display: flex;
-    /* gap: 24px; */
+    gap: 24px;
     justify-content: center;
 }
-.left-slide-btn, .right-slide-btn{
-    font-size: 32px;
-    font-weight: bold;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
+
+.slide-btn i {
     background-color: orange;
+    font-size: 24px;
+    padding: 30px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+
+/* our stories section  */
+
+.our-stories-container {
+    padding: 0 160px;
+}
+
+.our-stories {
+    background-image: url("/assets/bg.png");
+    margin-bottom: 80px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 166, 0, 0.6783088235294117) 80%);
+    padding-bottom: 80px;
+}
+
+.standard-heading {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 32px;
+}
+
+.our-stories-cards {
+    display: flex;
+}
+
+/* left section  */
+.our-stories-left {
+    width: 45%;
+
+}
+
+.our-stories-left-card {
+    width: 450px;
+    height: 630px;
+    border-radius: 16px;
+    background-color: white;
+
+    /* display: flex;
+    flex-direction: column;
+    gap: 33px; */
+}
+
+.our-stories-left-card img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+}
+
+.date {
+    width: 164px;
+    height: 24px;
+    padding: 14px 18px;
+    color: white;
+    font-size: 24px;
+    border-radius: 47px;
     align-items: center;
-    justify-content: center;
+    text-align: center;
+
+    position: relative;
+    top: -30px;
+
+
+}
+
+.date-bg-1 {
+    background-color: #009199;
+}
+
+.stories-details {
+    padding: 0 34px 34px 34px;
+}
+
+.stories-details h3 {
+    font-size: 24px;
+    margin: 30px 0;
+}
+
+
+
+/* right section  */
+.our-stories-right {
+    margin-left: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.small-card {
+    width: 260px;
+    height: 300px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.small-card img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+}
+
+.small-date {
+    color: white;
+    font-size: 16px;
+    width: 150px;
+    height: 18px;
+    padding: 10px 18px;
+    border-radius: 47px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: -25px;
+    left: 20px;
+}
+
+.small-date-bg-1 {
+    background-color: #95B226;
+}
+
+.small-date-bg-2 {
+    background-color: #5D58F0;
+}
+
+.small-date-bg-3 {
+    background-color: #95B226;
+}
+
+.small-date-bg-4 {
+    background-color: #95B226;
+}
+
+.small-card h3 {
+    padding: 0 24px;
+    font-size: 16px;
+}
+
+.view-all-btn {
+    text-align: center;
+    margin-top: 24px;
+}
+
+
+
+
+
+/* footer section  */
+
+footer{
+    background-color: #01ACFD;
+    margin-top: -80px;
+}
+.footer-left{
+    width: 400px;
+}
+.footer-container{
+    padding: 80px 160px;
+    display: flex;
+    justify-content:space-around;
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+}
+.logo-name h2{
+    color: white;
+    font-size: 38px;
+}
+.footer-left-details{
+    margin-top: 48px;
+    color: white;
+    font-weight: 100;
+
+}
+
+.footer-middle{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-middle a{
+    color: white;
+    text-decoration: none;
+}
+.footer-right h3 {
+    color: white;
+    margin-bottom: 24px;
+}
+.footer-right img{
+    cursor: pointer;
 }
